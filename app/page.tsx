@@ -6,8 +6,8 @@ export default function Page() {
     <section>
       <a href={socialLinks.twitter} target="_blank">
         <Image
-          src="/profile.png"
-          alt="Profile photo"
+          src="/profile-picture.png"
+          alt="Nigel Emmett"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
           width={160}
@@ -16,7 +16,7 @@ export default function Page() {
         />
       </a>
       <h1 className="mb-8 text-2xl font-medium">
-        Portfolio template!
+        Portfolio!
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
@@ -28,7 +28,7 @@ export default function Page() {
           Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
           <a
             target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
+            href="https://github.com/enmg/home"
           >
             more
           </a>
@@ -43,7 +43,7 @@ export default function Page() {
         </p>
         <p>
           <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
+            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fenmg%2Fhome"
             target="_blank"
           >
             Deploy
